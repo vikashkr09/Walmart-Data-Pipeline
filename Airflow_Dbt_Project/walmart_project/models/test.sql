@@ -1,0 +1,1 @@
+select count(*) from walmart.bronze.orders limit 10;
