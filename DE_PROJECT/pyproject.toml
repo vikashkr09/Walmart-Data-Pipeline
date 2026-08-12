@@ -1,0 +1,17 @@
+[project]
+name = "walmart-de-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "vikashkr09", email = "vikashhit89@example.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+walmart-de-project = "walmart_de_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
